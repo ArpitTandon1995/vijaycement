@@ -44,6 +44,20 @@ app.get("/login",(req, res)=>{
             + "</form>"
     );
 });
+app.get("/contacct",(req, res)=>{
+    res.send(
+            "<h1>Vijay cement  </h1>"
+            + "<h3>contact page</h3>"
+            +"<hr/>"
+            +"<form>"
+            + "<input/>"
+            + "<br/>"
+            +"<input/> "
+            +"<button>contact us</button>"
+            + "</form>"
+    );
+});
+
 
 var server=app.listen(5000);
 console.log("Vijay Sales Online shopping running on port 5000");
