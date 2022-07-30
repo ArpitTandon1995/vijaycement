@@ -44,7 +44,7 @@ app.get("/login",(req, res)=>{
             + "</form>"
     );
 });
-app.get("/contacct",(req, res)=>{
+app.get("/contact",(req, res)=>{
     res.send(
             "<h1>Vijay cement  </h1>"
             + "<h3>contact page</h3>"
