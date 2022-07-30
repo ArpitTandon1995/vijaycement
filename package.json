@@ -1,0 +1,23 @@
+{
+  "name": "vijay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArpitTandon1995/vijaycement.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArpitTandon1995/vijaycement/issues"
+  },
+  "homepage": "https://github.com/ArpitTandon1995/vijaycement#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
